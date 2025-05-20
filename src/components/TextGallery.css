@@ -1,0 +1,40 @@
+.text-gallery {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.text-card {
+  background: rgb(112, 30, 188);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.text-card:hover {
+  transform: translateY(-5px);
+}
+
+.text-card h2 {
+  color: #f7f1f1;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.text-card p {
+  color: #faf4f4;
+  line-height: 1.6;
+}
+
+.text-author {
+  color: #999;
+  font-size: 0.9rem;
+}
