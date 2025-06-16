@@ -1,6 +1,31 @@
+/* Existing .App-header styles */
 .App-header {
   background-color: #282c34;
   padding: 20px;
   color: white;
   text-align: center;
+  /* Add display flex for layout of title and nav */
+  display: flex;
+  flex-direction: column; /* Stack title and nav vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.App-header h1 {
+  margin-bottom: 10px; /* Add some space below the title */
+}
+
+/* Styles for the navigation */
+.App-header nav {
+  margin-top: 10px;
+}
+
+.nav-link {
+  color: #61dafb; /* React blue color for links */
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
 }
