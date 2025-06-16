@@ -1,22 +1,28 @@
 .blog-container {
   padding: 20px;
-  margin-bottom: 60px; /* Add margin to ensure footer doesn't overlap content */
+  margin-bottom: 60px; 
+  
 }
 
 .poem {
   border: 1px solid #eee;
   padding: 15px;
+  color: white;
   margin-bottom: 20px;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background: linear-gradient(135deg, #5a0490, #cb27c3);
 }
 
 .poem h3 {
   margin-top: 0;
-  color: #333;
+  color: #f2e9e9;
+}
+
+h2 {
+  color: #ca1d9c;
 }
 
 .poem p {
-  color: #555;
+  color: #faf4f4;
   line-height: 1.6;
 }
