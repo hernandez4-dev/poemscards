@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+/* Make sure to add this to your existing App.css content */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  flex: 1; /* This will push the footer down */
+  padding-bottom: 70px; /* Height of the footer + some space */
+}
+
+/* You might need to adjust your Footer.css if it's fixed */
+/* If Footer.css has position: fixed, this padding-bottom might not be necessary */
+/* or App.css changes might conflict. Let's assume Footer.css might be changed later if needed. */
