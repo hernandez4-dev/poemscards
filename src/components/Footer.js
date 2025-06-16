@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
   return (
     <footer className="App-footer">
-      <p>© 2023 My Awesome App. All rights reserved.</p>
+      <p>© 2025 RapsodAz. All rights reserved.</p>
     </footer>
   );
 }

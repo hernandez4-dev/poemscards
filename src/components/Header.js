@@ -5,10 +5,10 @@ import './Header.css';
 function Header() {
   return (
     <header className="App-header">
-      <h1>My Awesome App</h1>
+      <h1>Welcome to RapsodAz</h1>
       <nav>
-        <Link to="/" className="nav-link">Home (Text Gallery)</Link>
-        <Link to="/blog" className="nav-link">Blog (Poems)</Link>
+        <Link to="/" className="nav-link">Home</Link>
+        <Link to="/blog" className="nav-link">Blog Poems</Link>
       </nav>
     </header>
   );
