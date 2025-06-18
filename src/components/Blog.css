@@ -8,6 +8,7 @@
 }
 
 .poem {
+  color: #392033;
   flex-basis: 300px;
   flex-grow: 1;
   background: #fff;
@@ -20,14 +21,15 @@
 
 .poem h3 {
   margin-top: 0;
-  color: #333;
+  color: #c4289b;
 }
 
-h2 {
-  color: #ca1d9c;
-}
+ h2 {
+  color: #c4289b;
+ }
+
 
 .poem p {
-  color: #555;
+  color: #b12e2e;
   line-height: 1.6;
 }

@@ -43,14 +43,17 @@ const poems = [
 
 function Blog() {
   return (
-    <div className="blog-container">
+    <div>
+      
       <h2>Poem Collection</h2>
+      <div className="blog-container">
       {poems.map(poem => (
         <article key={poem.id} className="poem">
           <h3>{poem.title}</h3>
-          <p style={{ whiteSpace: 'pre-line' }}>{poem.content}</p>
+          <p style={{ whiteSpace: 'pre-line' }} className='poem-content'>{poem.content}</p>
         </article>
       ))}
+    </div>
     </div>
   );
 }

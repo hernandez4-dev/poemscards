@@ -86,6 +86,7 @@ function MotivationButton(){
 
     return(
         <div className="motivation-container">
+            
             <button className="btn-positivo" onClick={mostrarMensajePositivo}>
             Presiona para recibir un mensaje especial para ti💝
             </button>

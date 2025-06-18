@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Blog from './components/Blog'; // Import Blog component
 import BlogTwo from './components/BlogTwo';
 import MotivationButton from './components/MotivationButton';
+import ImageCarousel from './components/ImageCarousel';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/blogtwo" element={<BlogTwo />} />
             <Route path="/motivation" element={<MotivationButton />} />
+            <Route path="/carousel" element={<ImageCarousel />} />
           </Routes>
         </div>
         <Footer />

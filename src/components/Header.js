@@ -11,6 +11,7 @@ function Header() {
         <Link to="/blog" className="nav-link">Blog Poems</Link>
         <Link to="/blogtwo" className="nav-link">Heart</Link>
         <Link to="/motivation" className="nav-link">Motivation</Link>
+        <Link to="/carousel" className="nav-link">Art</Link>
       </nav>
     </header>
   );
