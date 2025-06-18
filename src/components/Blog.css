@@ -1,21 +1,26 @@
 .blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
   padding: 20px;
-  margin-bottom: 60px; 
-  
+  margin-bottom: 60px;
 }
 
 .poem {
-  border: 1px solid #eee;
-  padding: 15px;
-  color: white;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  background: linear-gradient(135deg, #5a0490, #cb27c3);
+  flex-basis: 300px;
+  flex-grow: 1;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  /* margin-bottom: 20px; */ /* Removed as gap in container should be sufficient */
 }
 
 .poem h3 {
   margin-top: 0;
-  color: #f2e9e9;
+  color: #333;
 }
 
 h2 {
@@ -23,6 +28,6 @@ h2 {
 }
 
 .poem p {
-  color: #faf4f4;
+  color: #555;
   line-height: 1.6;
 }
