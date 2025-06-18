@@ -1,0 +1,64 @@
+.motivation-container {
+    text-align: center;
+    margin: 30px 0;
+    padding: 20px;
+}
+
+.btn-positivo {
+    background: linear-gradient(135deg, #5a0490, #cb27c3);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(90, 4, 144, 0.3);
+}
+
+.btn-positivo:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(90, 4, 144, 0.4);
+}
+
+.btn-positivo:active {
+    transform: translateY(0);
+}
+
+.mensaje-positivo {
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(135deg, #e250c4, #7b05aa);
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+    animation: aparecer 0.5s ease-out;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 1s ease-in-out;
+}
+
+.mensaje-positivo.fade-out {
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+.mensaje-positivo p {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

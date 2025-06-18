@@ -5,6 +5,8 @@ import TextGallery from './components/TextGallery';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Blog from './components/Blog'; // Import Blog component
+import BlogTwo from './components/BlogTwo';
+import MotivationButton from './components/MotivationButton';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
           <Routes>
             <Route path="/" element={<TextGallery />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blogtwo" element={<BlogTwo />} />
+            <Route path="/motivation" element={<MotivationButton />} />
           </Routes>
         </div>
         <Footer />

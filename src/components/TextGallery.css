@@ -1,42 +1,78 @@
 .text-gallery {
-  padding: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  background: linear-gradient(135deg, #5a0490, #cb27c3);
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-gallery h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
 }
 
 .text-container {
+  max-width: 1200px;
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  padding: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  padding: 20px;
 }
 
 .text-card {
-  background: rgb(112, 30, 188);
-  border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease-in-out;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.text-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #5a0490, #cb27c3);
 }
 
 .text-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
 }
 
 .text-card h2 {
-  color: #f7f1f1;
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
+  color: #5a0490;
+  margin-bottom: 15px;
+  font-size: 1.4em;
+  font-weight: 600;
 }
 
 .text-card p {
-  color: #faf4f4;
+  color: #333;
   line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 1rem;
 }
 
 .text-author {
-  color: #999;
-  font-size: 0.9rem;
+  color: #cb27c3 !important;
+  font-weight: 600;
+  font-style: italic;
+  text-align: right;
+  margin-top: 20px;
 }
 
 .text-card-header {
