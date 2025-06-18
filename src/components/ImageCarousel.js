@@ -7,7 +7,8 @@ const images = [
   process.env.PUBLIC_URL + '/img/IMG_0022.PNG',
   process.env.PUBLIC_URL + '/img/margarita.png',
   process.env.PUBLIC_URL + '/img/rosse.png',
-  process.env.PUBLIC_URL + '/img/rossee.png'
+  process.env.PUBLIC_URL + '/img/lol.png',
+  process.env.PUBLIC_URL + '/img/ilustra.png',
 ];
 
 function ImageCarousel() {

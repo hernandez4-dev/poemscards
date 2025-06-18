@@ -44,3 +44,32 @@
   text-decoration: none;
   transform: translateY(-2px);
 }
+
+@media (max-width: 700px) {
+  .App-header {
+    padding: 10px 5px;
+  }
+  .App-header h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  .App-header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 0;
+    background: rgba(255,255,255,0.10);
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 10px 0;
+    position: static;
+  }
+  .nav-link {
+    margin: 8px 0;
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+  }
+}
